@@ -1,0 +1,16 @@
+# Directories
+
+# File patterns
+*.log
+*.pot
+*.py[cod]
+*~
+.*swp
+._*
+
+# Individual files
+local_settings.py
+.project
+.pydevproject
+.DS_Store
+._.DS_Store
