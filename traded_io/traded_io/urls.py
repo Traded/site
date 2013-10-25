@@ -8,6 +8,7 @@ from django.contrib import admin
 urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'traded_io.views.home', name='home'),
+    url(r'^login$', 'traded_io.views.login', name='login'),
     # url(r'^traded_io/', include('traded_io.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
