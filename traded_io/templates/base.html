@@ -30,7 +30,14 @@
                 </nav>
             </div>
         </header>
+        <div class="bs-header" id="content">
+            <div class="container">
+                {% block showcase %}{% endblock %}
+            </div>
+        </div>
+        <div class="container">
         {% block content %}
         {% endblock %}
+        </div>
     </body>
 </html>
