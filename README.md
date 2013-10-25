@@ -20,7 +20,7 @@ The main project settings file `traded_io/traded_io/settings.py` will have empty
 
 ## Launching
 
-The manage.py file is +x, so starting a development instance on your local machine should be as straightforward as
+The `manage.py` file is +x, so starting a development instance on your local machine should be as straightforward as
 
     $ cd traded_io
     $ ./manage.py runserver
