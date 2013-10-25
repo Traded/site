@@ -29,7 +29,7 @@ The `manage.py` file is +x, so starting a development instance on your local mac
 
 We will follow a branch/commit/merge strategy.  Never push to `master`.  Rarely, if ever, should you push directly to `dev`.  Our process should be to branch from `dev` for new features or bugfixes, merge back together into `dev` our work, and finally merge that into `master`.  `master` should always be the released site, `dev` should be the current working state of the next version of the site.  Generally speaking, the process should basically be as follows (legend: `[branch] $ [command] [parameters]`):
 
-    [no branch]   $ git clone https://github.com/Traded/site
+    [no branch]   $ git clone git@github.com:Traded/site.git
     [no branch]   $ cd site
     [master]      $ git checkout dev
     [dev]         $ git branch new-feature
